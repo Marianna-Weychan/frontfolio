@@ -3,7 +3,7 @@ import { ThemeProvider } from "styled-components";
 import { Normalize } from "styled-normalize";
 import { GlobalStyle } from "./GlobalStyle";
 import { selectIsDarkTheme } from "../common/themeSlice";
-import PersonalHomepage from "../features/homepage/PersonalHomepage";
+import PersonalHomepage from "../features/PersonalHomepage";
 import { darkTheme, lightTheme } from "./theme";
 
 function App() {
