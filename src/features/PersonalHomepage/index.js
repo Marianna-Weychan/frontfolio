@@ -1,9 +1,9 @@
-import { ThemeSwitcher } from "../../common/ThemeSwitch";
+import { ThemeSwitcher } from "../../common/ThemeSwitcher";
 import MainInformation from "./MainInformation";
 import { Skills } from "./Section/Skills";
-//import Frontfolio from "./Frontfolio";
-//import Footer from "./Footer";
-import { currentSkills, skillsToLearn } from "./Section/Skills/mySkills"
+
+import { Footer } from "./Footer";
+import { currentSkills, skillsToLearn } from "./Section/Skills/skillsData"
 import { Container } from "./styled";
 
 
@@ -13,12 +13,14 @@ const PersonalHomepage = () => {
             <ThemeSwitcher />
             <MainInformation />
             <Skills
-                title="My skillset includes 🛠️"
+                title="My skillset includes 🛠️💡"
                 skills={currentSkills}
             />
             <Skills
-                title="What I want to learn next 🚀"
+                title="What I want to learn next 🚀🎓"
                 skills={skillsToLearn} />
+
+            <Footer />
         </Container>
     );
 }
