@@ -1,6 +1,6 @@
 import { Wrapper, Image, ThisIs, FullName, Summary, EnvelopeIcon, StyledButtonLink } from "./styled";
-import myPhoto from "../images/author.jpg";
-import { email } from "../myData";
+import myPhoto from "./author.jpg";
+import { email } from "../email";
 
 const MainInformation = () => (
     <Wrapper>
