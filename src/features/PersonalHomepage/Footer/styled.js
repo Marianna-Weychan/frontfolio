@@ -2,11 +2,8 @@ import styled from "styled-components";
 
 export const Wrapper = styled.footer`
     margin-top: 120px;
-    @media (max-width: ${({ theme }) => theme.breakpoints.desktop}px) {
-        margin-top: 48px;
-    }
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-        margin: 0;
+        margin-top: 48px;
     }
 `;
 
@@ -28,7 +25,7 @@ export const EmailWrapper = styled.div`
     }
 `;
 
-export const Contact = styled.a`
+export const ContactLink = styled.a`
     color: ${({ theme }) => theme.colors.textPrimary};
     font-weight: 900;
     font-size: 32px;
