@@ -9,9 +9,13 @@ const MainInformation = () => (
             <ThisIs>This is</ThisIs>
             <FullName>Marianna Weychan</FullName>
             <Summary>
-                I am an enthusiastic Junior Frontend Developer who is looking for development opportunities. I am currently working with React but I want to learn other technologies to become a better programmer.
+                I am an enthusiastic Junior Frontend Developer who is looking for development opportunities.
+                I am currently working with React but I want to learn other technologies to become a better programmer.
             </Summary>
-            <StyledButtonLink href={`mailto: ${email}`} title={email}>
+            <StyledButtonLink
+                href={`mailto:${email}`}
+                title={email}
+                rel="noopener noreferrer">
                 <EnvelopeIcon />
                 Hire Me
             </StyledButtonLink>
