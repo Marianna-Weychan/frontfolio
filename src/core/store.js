@@ -1,20 +1,20 @@
 import { configureStore } from "@reduxjs/toolkit";
 import createSagaMiddleware from "@redux-saga/core";
-import rootSaga from "./rootSaga";
+import { saga } from "./saga";
 import themeReducer from "../common/themeSlice";
-import fetchRepositoriesAPIReducer from "../features/PersonalHomepage/fetchRepositoriesSlice";
+import personalHomepageReducer from "../features/PersonalHomepage/personalHomepageSlice";
 
 const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
     reducer: {
         theme: themeReducer,
-        myRepositories: fetchRepositoriesAPIReducer,
+        personalHomepage: personalHomepageReducer,
     },
 
     middleware: [sagaMiddleware],
 });
 
-sagaMiddleware.run(rootSaga)
+sagaMiddleware.run(saga)
 
 export default store; 
