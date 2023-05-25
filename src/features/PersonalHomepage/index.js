@@ -1,11 +1,10 @@
 import { ThemeSwitcher } from "../../common/ThemeSwitcher";
 import MainInformation from "./MainInformation";
 import { Skills } from "./Section/Skills";
-
-import { Footer } from "./Footer";
 import { currentSkills, skillsToLearn } from "./Section/Skills/skillsData"
+import { Portfolio } from "./Portfolio";
+import { Footer } from "./Footer";
 import { Container } from "./styled";
-
 
 const PersonalHomepage = () => {
     return (
@@ -19,7 +18,7 @@ const PersonalHomepage = () => {
             <Skills
                 title="What I want to learn next 🚀🎓"
                 skills={skillsToLearn} />
-
+            <Portfolio />
             <Footer />
         </Container>
     );
