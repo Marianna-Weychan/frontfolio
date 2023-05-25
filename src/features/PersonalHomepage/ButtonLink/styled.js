@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ButtonLink = styled.button`
+export const ButtonLink = styled.a`
     text-decoration: none;
     border: 1px solid ${({ theme }) => theme.colors.buttonLink.border};
     color: ${({ theme }) => theme.colors.buttonLink.text};
