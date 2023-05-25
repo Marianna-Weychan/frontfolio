@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { SubHeader } from "../../SubHeader/styled";
-import { ReactComponent as BulletIcon } from "../../images/icons/bullet.svg";
+import { ReactComponent as BulletIcon } from "./bullet.svg";
 
 export const Section = styled.section`
     background-color: ${({ theme }) => theme.colors.boxBackground};
