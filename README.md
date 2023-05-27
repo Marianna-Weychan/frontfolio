@@ -8,7 +8,7 @@
 4. [👀 Preview](#preview)
 5. [🛠 Used Technologies](#technologies)
 
-
+<a id="description"></a>
 ## ⌨️ Short description
 
  **What is Frontfolio? It is a combination of the words "Frontend" and "Portfolio"**, which reflects my specialization as a front-end developer and the nature of the repository as a place to present and collect my projects, knowledge of tools and technologies and my skills.💻 <br/>
@@ -23,6 +23,7 @@
 </div>
 
 <br><br>
+<a id="preview"></a>
 ## 👀 Preview
 
 <a id="technologies"></a>
