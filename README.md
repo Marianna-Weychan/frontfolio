@@ -25,6 +25,8 @@
 <br><br>
 <a id="preview"></a>
 ## 👀 Preview 
+![Frontfolio GIF](src/public/Frontfolio.gif)
+
 <br/><br/>
 
 <a id="technologies"></a>
