@@ -1,5 +1,16 @@
 ## Hi, I'm glad you checked out my Frontoflio page 🙋‍♀️<br/>
+
+### 📑 Table of contents:
+
+1. [⌨️ Short description](#description)
+2. [📧contact me](#contact)
+3. [🎮 Demo](#demo)
+4. [👀 Preview](#preview)
+5. [🛠 Used Technologies](#technologies)
+
+
 ## ⌨️ Short description
+
  **What is Frontfolio? It is a combination of the words "Frontend" and "Portfolio"**, which reflects my specialization as a front-end developer and the nature of the repository as a place to present and collect my projects, knowledge of tools and technologies and my skills.💻 <br/>
  **If you want to contact me, you can do it directly here: ⬇️ or in the application you can find 🔍 [**here (click)**](https://marianna-weychan.github.io/frontfolio/)** 
 <br>
@@ -12,18 +23,24 @@
 </div>
 
 <br><br>
+## 👀 Preview
 
-
+<a id="technologies"></a>
 ## 👩‍💻 Used Technoligies:
 - HTML,
-- JavaScript (ES6+),
-- CSS (Flex, Grid, media queries, styled components),
-- React
-- Create-react-app
-- ThemeProvider
-- Redux / Toolkit
-- Redux-Saga
-- Promises, async/await
+- CSS,
+- JavaScript ES6,
+- Flex,
+- Grid,
+- Markdown,
+- Node.js,
+- Styled-components,
+- create-react-app,
+- React,
+- React Redux,
+- React Redux-Toolkit,
+- React Redux-Saga,
+- Axios.
 
 <br/><br/>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
