@@ -14,7 +14,7 @@
  **What is Frontfolio? It is a combination of the words "Frontend" and "Portfolio"**, which reflects my specialization as a front-end developer and the nature of the repository as a place to present and collect my projects, knowledge of tools and technologies and my skills.💻 <br/>
  **If you want to contact me, you can do it directly here: ⬇️ or in the application you can find 🔍 [**here (click)**](https://marianna-weychan.github.io/frontfolio/)** 
 <br>
-
+<a id="contact"></a>
 <div align="center">
 
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue&link=https://www.linkedin.com/in/marianna-weychan/)](https://www.linkedin.com/in/marianna-weychan/)
