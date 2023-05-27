@@ -1,5 +1,14 @@
-## Hi, I'm glad you checked out my Frontoflio page 🙋‍♀️<br/>
+<div align="center">
+  <h2>Hi 🙋‍♀️, I'm glad you checked out my page</h2>
+  
+<h1>
+  <span style="font-size: inherit;">Frontoflio</span>
+  <img src="public/codeIcon.jpg" alt="Code icon" style="vertical-align: middle; height: 3em;">
+</h1>
 
+
+
+</div>
 ### 📑 Table of contents:
 
 1. [⌨️ Short description](#description)
@@ -30,7 +39,7 @@
 <br/><br/>
 
 <a id="technologies"></a>
-## 👩‍💻 Used Technoligies:
+## 👩‍💻 Used Technologies:
 - HTML,
 - CSS,
 - JavaScript ES6,
