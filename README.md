@@ -37,7 +37,7 @@
 - Markdown,
 - Node.js,
 - Styled-components,
-- create-react-app,
+- Create-react-app,
 - React,
 - React Redux,
 - React Redux-Toolkit,
