@@ -5,10 +5,13 @@
   <span style="font-size: inherit;">Frontoflio</span>
   <img src="public/codeIcon.jpg" alt="Code icon" style="vertical-align: middle; height: 3em;">
 </h1>
-
+<br/>
+  
+![Og GIF](public/OpenImage.gif)
 
 
 </div>
+
 ### 📑 Table of contents:
 
 1. [⌨️ Short description](#description)
