@@ -25,7 +25,7 @@
 <br><br>
 <a id="preview"></a>
 ## 👀 Preview 
-![Frontfolio GIF](/public/Frontfolio.gif)
+![Frontfolio GIF](public/Frontfolio.gif)
 
 <br/><br/>
 
