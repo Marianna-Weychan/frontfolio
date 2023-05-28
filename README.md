@@ -7,7 +7,7 @@
 </h1>
 <br/>
   
-![Og GIF](public/OpenImage.gif)
+![Opengraph GIF](public/FrontfolioGif.gif)
 
 
 </div>
