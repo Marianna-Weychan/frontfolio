@@ -1,4 +1,4 @@
-import { List, Tile, Name, Description, Links, LinksRow, LinksValue, Link, } from "./styled";
+import { List, Tile, Name, Description, Links, LinksRow, LinksValue, Link } from "./styled";
 
 export const Repositories = ({ repositories }) => (
     <List>
@@ -11,14 +11,14 @@ export const Repositories = ({ repositories }) => (
                         <LinksRow>
                             <dt>Demo:</dt>
                             <LinksValue>
-                                <Link href={homepage} target="_blank" rel="noreferrer noopener">{homepage}</Link>
+                                <Link href={homepage} target="_blank" rel="noreferrer noopener">Project Demo</Link>
                             </LinksValue>
                         </LinksRow>
                     )}
                     <LinksRow>
                         <dt>Code:</dt>
                         <LinksValue>
-                            <Link href={html_url} target="_blank" rel="noreferrer noopener">{html_url}</Link>
+                            <Link href={html_url} target="_blank" rel="noreferrer noopener">Github Repository</Link>
                         </LinksValue>
                     </LinksRow>
                 </Links>
