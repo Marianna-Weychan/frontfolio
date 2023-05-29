@@ -43,10 +43,10 @@ export const Item = styled.li`
    `;
 
 export const Bullet = styled(BulletIcon)`
- color: ${({ theme }) => theme.colors.primary};
- margin-right: 16px;
- height: auto;
- @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    color: ${({ theme }) => theme.colors.primary};
+    margin-right: 16px;
+    height: auto;
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
       width: 6px;
       margin-right: 8px;
     }

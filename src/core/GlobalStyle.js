@@ -2,10 +2,10 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     html {
-    box-sizing: border-box;
+        box-sizing: border-box;
     }
     *, ::after, ::before {
-    box-sizing: inherit;
+        box-sizing: inherit;
     }
 
     body {
@@ -20,5 +20,5 @@ export const GlobalStyle = createGlobalStyle`
         @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
             padding-bottom: 32px;
         }
-            }
+     }
 `;
