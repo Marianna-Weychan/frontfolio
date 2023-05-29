@@ -7,6 +7,7 @@ const colorsName = {
     tropicalBlue: "#CDE0F7",
     anakiwa: "#8CC2FF",
     scienceBlueLight: "rgba(3, 102, 214, 0.2)",
+    scienceBlueLightDarkTheme: "rgba(3, 102, 214, 0.5)",
     dodgerBlue: "#2188FF",
     shipCove: "#6D93BE",
     slateGray: "#6E7E91",
@@ -87,7 +88,7 @@ export const darkTheme = {
         headerLine: colorsName.tundora,
         tile: {
             border: colorsName.tundora,
-            borderHover: colorsName.tropicalBlue,
+            borderHover: colorsName.scienceBlueLightDarkTheme,
             header: colorsName.white,
         },
         link: {
