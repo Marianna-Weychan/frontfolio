@@ -3,6 +3,7 @@ import { css } from "styled-components";
 import { ReactComponent as SunIcon } from "./sun.svg";
 
 export const ThemeSwitcherWrapper = styled.div`
+   margin: 26px auto 0;
    display: flex;
    justify-content: flex-end;
 `;
@@ -32,7 +33,7 @@ export const Switcher = styled.span`
     background: ${({ theme }) => theme.colors.themeSwitcher.background};
     border: solid 1px;
     padding: 3px;
-    border-radius: 12px;
+    border-radius: 24px;
     width: 48px;
     display: flex;
 `;
